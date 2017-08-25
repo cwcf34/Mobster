@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42DB91F21F5076EA00E48CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB91F11F5076EA00E48CC7 /* AppDelegate.swift */; };
+		42DB91F41F5076EA00E48CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB91F31F5076EA00E48CC7 /* ViewController.swift */; };
+		42DB91F71F5076EA00E48CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DB91F51F5076EA00E48CC7 /* Main.storyboard */; };
+		42DB91F91F5076EA00E48CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DB91F81F5076EA00E48CC7 /* Assets.xcassets */; };
+		42DB91FC1F5076EA00E48CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DB91FA1F5076EA00E48CC7 /* LaunchScreen.storyboard */; };
+		42DB92071F5076EA00E48CC7 /* MobsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB92061F5076EA00E48CC7 /* MobsterTests.swift */; };
+		42DB920C1F5076EA00E48CC7 /* Mobster WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 42DB920B1F5076EA00E48CC7 /* Mobster WatchKit App.app */; };
+		42DB92121F5076EA00E48CC7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DB92101F5076EA00E48CC7 /* Interface.storyboard */; };
+		42DB92141F5076EA00E48CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DB92131F5076EA00E48CC7 /* Assets.xcassets */; };
+		42DB921B1F5076EB00E48CC7 /* Mobster WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42DB921A1F5076EB00E48CC7 /* Mobster WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42DB92221F5076EB00E48CC7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB92211F5076EB00E48CC7 /* InterfaceController.swift */; };
+		42DB92241F5076EB00E48CC7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB92231F5076EB00E48CC7 /* ExtensionDelegate.swift */; };
+		42DB92261F5076EB00E48CC7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB92251F5076EB00E48CC7 /* NotificationController.swift */; };
+		42DB92281F5076EB00E48CC7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB92271F5076EB00E48CC7 /* ComplicationController.swift */; };
+		42DB922A1F5076EB00E48CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DB92291F5076EB00E48CC7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42DB92031F5076EA00E48CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DB91E61F5076EA00E48CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DB91ED1F5076EA00E48CC7;
+			remoteInfo = Mobster;
+		};
+		42DB920D1F5076EA00E48CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DB91E61F5076EA00E48CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DB920A1F5076EA00E48CC7;
+			remoteInfo = "Mobster WatchKit App";
+		};
+		42DB921C1F5076EB00E48CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DB91E61F5076EA00E48CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DB92191F5076EB00E48CC7;
+			remoteInfo = "Mobster WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42DB92311F5076EB00E48CC7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42DB921B1F5076EB00E48CC7 /* Mobster WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB92351F5076EB00E48CC7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				42DB920C1F5076EA00E48CC7 /* Mobster WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42DB91EE1F5076EA00E48CC7 /* Mobster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB91F11F5076EA00E48CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42DB91F31F5076EA00E48CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42DB91F61F5076EA00E48CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42DB91F81F5076EA00E48CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DB91FB1F5076EA00E48CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42DB91FD1F5076EA00E48CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DB92021F5076EA00E48CC7 /* MobsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB92061F5076EA00E48CC7 /* MobsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobsterTests.swift; sourceTree = "<group>"; };
+		42DB92081F5076EA00E48CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DB920B1F5076EA00E48CC7 /* Mobster WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobster WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB92111F5076EA00E48CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		42DB92131F5076EA00E48CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DB92151F5076EA00E48CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DB921A1F5076EB00E48CC7 /* Mobster WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mobster WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB92201F5076EB00E48CC7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		42DB92211F5076EB00E48CC7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		42DB92231F5076EB00E48CC7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		42DB92251F5076EB00E48CC7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		42DB92271F5076EB00E48CC7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		42DB92291F5076EB00E48CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DB922B1F5076EB00E48CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42DB91EB1F5076EA00E48CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB91FF1F5076EA00E48CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB92171F5076EB00E48CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42DB91E51F5076EA00E48CC7 = {
+			isa = PBXGroup;
+			children = (
+				42DB91F01F5076EA00E48CC7 /* Mobster */,
+				42DB92051F5076EA00E48CC7 /* MobsterTests */,
+				42DB920F1F5076EA00E48CC7 /* Mobster WatchKit App */,
+				42DB921E1F5076EB00E48CC7 /* Mobster WatchKit Extension */,
+				42DB91EF1F5076EA00E48CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42DB91EF1F5076EA00E48CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42DB91EE1F5076EA00E48CC7 /* Mobster.app */,
+				42DB92021F5076EA00E48CC7 /* MobsterTests.xctest */,
+				42DB920B1F5076EA00E48CC7 /* Mobster WatchKit App.app */,
+				42DB921A1F5076EB00E48CC7 /* Mobster WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DB91F01F5076EA00E48CC7 /* Mobster */ = {
+			isa = PBXGroup;
+			children = (
+				42DB91F11F5076EA00E48CC7 /* AppDelegate.swift */,
+				42DB91F31F5076EA00E48CC7 /* ViewController.swift */,
+				42DB91F51F5076EA00E48CC7 /* Main.storyboard */,
+				42DB91F81F5076EA00E48CC7 /* Assets.xcassets */,
+				42DB91FA1F5076EA00E48CC7 /* LaunchScreen.storyboard */,
+				42DB91FD1F5076EA00E48CC7 /* Info.plist */,
+			);
+			path = Mobster;
+			sourceTree = "<group>";
+		};
+		42DB92051F5076EA00E48CC7 /* MobsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				42DB92061F5076EA00E48CC7 /* MobsterTests.swift */,
+				42DB92081F5076EA00E48CC7 /* Info.plist */,
+			);
+			path = MobsterTests;
+			sourceTree = "<group>";
+		};
+		42DB920F1F5076EA00E48CC7 /* Mobster WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				42DB92101F5076EA00E48CC7 /* Interface.storyboard */,
+				42DB92131F5076EA00E48CC7 /* Assets.xcassets */,
+				42DB92151F5076EA00E48CC7 /* Info.plist */,
+			);
+			path = "Mobster WatchKit App";
+			sourceTree = "<group>";
+		};
+		42DB921E1F5076EB00E48CC7 /* Mobster WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42DB92211F5076EB00E48CC7 /* InterfaceController.swift */,
+				42DB92231F5076EB00E48CC7 /* ExtensionDelegate.swift */,
+				42DB92251F5076EB00E48CC7 /* NotificationController.swift */,
+				42DB92271F5076EB00E48CC7 /* ComplicationController.swift */,
+				42DB92291F5076EB00E48CC7 /* Assets.xcassets */,
+				42DB922B1F5076EB00E48CC7 /* Info.plist */,
+				42DB921F1F5076EB00E48CC7 /* Supporting Files */,
+			);
+			path = "Mobster WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		42DB921F1F5076EB00E48CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42DB92201F5076EB00E48CC7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42DB91ED1F5076EA00E48CC7 /* Mobster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB92361F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "Mobster" */;
+			buildPhases = (
+				42DB91EA1F5076EA00E48CC7 /* Sources */,
+				42DB91EB1F5076EA00E48CC7 /* Frameworks */,
+				42DB91EC1F5076EA00E48CC7 /* Resources */,
+				42DB92351F5076EB00E48CC7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DB920E1F5076EA00E48CC7 /* PBXTargetDependency */,
+			);
+			name = Mobster;
+			productName = Mobster;
+			productReference = 42DB91EE1F5076EA00E48CC7 /* Mobster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42DB92011F5076EA00E48CC7 /* MobsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB92391F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "MobsterTests" */;
+			buildPhases = (
+				42DB91FE1F5076EA00E48CC7 /* Sources */,
+				42DB91FF1F5076EA00E48CC7 /* Frameworks */,
+				42DB92001F5076EA00E48CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DB92041F5076EA00E48CC7 /* PBXTargetDependency */,
+			);
+			name = MobsterTests;
+			productName = MobsterTests;
+			productReference = 42DB92021F5076EA00E48CC7 /* MobsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42DB920A1F5076EA00E48CC7 /* Mobster WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB92321F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "Mobster WatchKit App" */;
+			buildPhases = (
+				42DB92091F5076EA00E48CC7 /* Resources */,
+				42DB92311F5076EB00E48CC7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DB921D1F5076EB00E48CC7 /* PBXTargetDependency */,
+			);
+			name = "Mobster WatchKit App";
+			productName = "Mobster WatchKit App";
+			productReference = 42DB920B1F5076EA00E48CC7 /* Mobster WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		42DB92191F5076EB00E48CC7 /* Mobster WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB922E1F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "Mobster WatchKit Extension" */;
+			buildPhases = (
+				42DB92161F5076EB00E48CC7 /* Sources */,
+				42DB92171F5076EB00E48CC7 /* Frameworks */,
+				42DB92181F5076EB00E48CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobster WatchKit Extension";
+			productName = "Mobster WatchKit Extension";
+			productReference = 42DB921A1F5076EB00E48CC7 /* Mobster WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42DB91E61F5076EA00E48CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "HARRISON, DARIUS [AG/1000]";
+				TargetAttributes = {
+					42DB91ED1F5076EA00E48CC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					42DB92011F5076EA00E48CC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42DB91ED1F5076EA00E48CC7;
+					};
+					42DB920A1F5076EA00E48CC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					42DB92191F5076EB00E48CC7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42DB91E91F5076EA00E48CC7 /* Build configuration list for PBXProject "Mobster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42DB91E51F5076EA00E48CC7;
+			productRefGroup = 42DB91EF1F5076EA00E48CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42DB91ED1F5076EA00E48CC7 /* Mobster */,
+				42DB92011F5076EA00E48CC7 /* MobsterTests */,
+				42DB920A1F5076EA00E48CC7 /* Mobster WatchKit App */,
+				42DB92191F5076EB00E48CC7 /* Mobster WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42DB91EC1F5076EA00E48CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB91FC1F5076EA00E48CC7 /* LaunchScreen.storyboard in Resources */,
+				42DB91F91F5076EA00E48CC7 /* Assets.xcassets in Resources */,
+				42DB91F71F5076EA00E48CC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB92001F5076EA00E48CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB92091F5076EA00E48CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB92141F5076EA00E48CC7 /* Assets.xcassets in Resources */,
+				42DB92121F5076EA00E48CC7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB92181F5076EB00E48CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB922A1F5076EB00E48CC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42DB91EA1F5076EA00E48CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB91F41F5076EA00E48CC7 /* ViewController.swift in Sources */,
+				42DB91F21F5076EA00E48CC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB91FE1F5076EA00E48CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB92071F5076EA00E48CC7 /* MobsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB92161F5076EB00E48CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB92261F5076EB00E48CC7 /* NotificationController.swift in Sources */,
+				42DB92281F5076EB00E48CC7 /* ComplicationController.swift in Sources */,
+				42DB92241F5076EB00E48CC7 /* ExtensionDelegate.swift in Sources */,
+				42DB92221F5076EB00E48CC7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42DB92041F5076EA00E48CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DB91ED1F5076EA00E48CC7 /* Mobster */;
+			targetProxy = 42DB92031F5076EA00E48CC7 /* PBXContainerItemProxy */;
+		};
+		42DB920E1F5076EA00E48CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DB920A1F5076EA00E48CC7 /* Mobster WatchKit App */;
+			targetProxy = 42DB920D1F5076EA00E48CC7 /* PBXContainerItemProxy */;
+		};
+		42DB921D1F5076EB00E48CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DB92191F5076EB00E48CC7 /* Mobster WatchKit Extension */;
+			targetProxy = 42DB921C1F5076EB00E48CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42DB91F51F5076EA00E48CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42DB91F61F5076EA00E48CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42DB91FA1F5076EA00E48CC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42DB91FB1F5076EA00E48CC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42DB92101F5076EA00E48CC7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42DB92111F5076EA00E48CC7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42DB922C1F5076EB00E48CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42DB922D1F5076EB00E48CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42DB922F1F5076EB00E48CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Mobster WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mobster.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		42DB92301F5076EB00E48CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Mobster WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mobster.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		42DB92331F5076EB00E48CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Mobster_WatchKit_Extension;
+				INFOPLIST_FILE = "Mobster WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mobster.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		42DB92341F5076EB00E48CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Mobster_WatchKit_Extension;
+				INFOPLIST_FILE = "Mobster WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mobster.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		42DB92371F5076EB00E48CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mobster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mobster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42DB92381F5076EB00E48CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mobster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mobster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42DB923A1F5076EB00E48CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobster.app/Mobster";
+			};
+			name = Debug;
+		};
+		42DB923B1F5076EB00E48CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MobsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobster.app/Mobster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42DB91E91F5076EA00E48CC7 /* Build configuration list for PBXProject "Mobster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB922C1F5076EB00E48CC7 /* Debug */,
+				42DB922D1F5076EB00E48CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DB922E1F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "Mobster WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB922F1F5076EB00E48CC7 /* Debug */,
+				42DB92301F5076EB00E48CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42DB92321F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "Mobster WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB92331F5076EB00E48CC7 /* Debug */,
+				42DB92341F5076EB00E48CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42DB92361F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "Mobster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB92371F5076EB00E48CC7 /* Debug */,
+				42DB92381F5076EB00E48CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42DB92391F5076EB00E48CC7 /* Build configuration list for PBXNativeTarget "MobsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB923A1F5076EB00E48CC7 /* Debug */,
+				42DB923B1F5076EB00E48CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42DB91E61F5076EA00E48CC7 /* Project object */;
+}
