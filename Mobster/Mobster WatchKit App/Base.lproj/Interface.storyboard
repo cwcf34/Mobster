@@ -18,7 +18,7 @@
                             <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
                             <calendarUnit key="units" hour="YES" minute="YES"/>
                         </timer>
-                        <label alignment="center" text="5 People" textAlignment="center" id="hQj-lA-VDl"/>
+                        <label alignment="center" text="0 People" textAlignment="center" id="hQj-lA-VDl"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Edit People" id="aHl-5o-BNV">
                             <connections>
                                 <action selector="editPeople" destination="AgC-eL-Hgc" id="C6k-rB-Cwi"/>
@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Start Interface Controller-->
         <scene sceneID="Um7-Nv-jGx">
             <objects>
-                <controller id="lGT-Nk-Pi3">
+                <controller id="lGT-Nk-Pi3" customClass="StartInterfaceController" customModule="Mobster_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label height="33" alignment="center" text="Scarrius" id="EUT-dm-7yr"/>
                         <timer width="105" height="53" alignment="center" verticalAlignment="center" textAlignment="center" id="WoU-9Q-Ev1">
@@ -50,11 +50,23 @@
                         </timer>
                         <group width="1" alignment="center" verticalAlignment="bottom" id="EL5-rS-T8T">
                             <items>
-                                <button width="75" height="35" alignment="left" verticalAlignment="bottom" title="Cancel" id="gHg-gc-XUs"/>
-                                <button width="75" height="35" alignment="right" verticalAlignment="bottom" title="Pause" id="x1b-ut-uNj"/>
+                                <button width="75" height="35" alignment="left" verticalAlignment="bottom" title="Cancel" id="gHg-gc-XUs">
+                                    <connections>
+                                        <action selector="cancel" destination="lGT-Nk-Pi3" id="aC4-fe-Kqq"/>
+                                    </connections>
+                                </button>
+                                <button width="75" height="35" alignment="right" verticalAlignment="bottom" title="Pause" id="x1b-ut-uNj">
+                                    <connections>
+                                        <action selector="pause" destination="lGT-Nk-Pi3" id="zXN-fL-3R1"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="person" destination="EUT-dm-7yr" id="Bq0-rC-y0a"/>
+                        <outlet property="timer" destination="WoU-9Q-Ev1" id="8fT-3v-9FC"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="468" y="344"/>

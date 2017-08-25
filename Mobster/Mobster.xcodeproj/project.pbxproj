@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4239FCD81F50B7BA00053FA2 /* Home2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239FCD61F50B7BA00053FA2 /* Home2InterfaceController.swift */; };
+		4239FCDA1F50CC8300053FA2 /* StartInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239FCD91F50CC8300053FA2 /* StartInterfaceController.swift */; };
+		4239FCDB1F50CC8300053FA2 /* StartInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239FCD91F50CC8300053FA2 /* StartInterfaceController.swift */; };
 		42DB91F21F5076EA00E48CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB91F11F5076EA00E48CC7 /* AppDelegate.swift */; };
 		42DB91F41F5076EA00E48CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB91F31F5076EA00E48CC7 /* ViewController.swift */; };
 		42DB91F71F5076EA00E48CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DB91F51F5076EA00E48CC7 /* Main.storyboard */; };
@@ -76,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		4239FCD61F50B7BA00053FA2 /* Home2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home2InterfaceController.swift; sourceTree = "<group>"; };
+		4239FCD91F50CC8300053FA2 /* StartInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartInterfaceController.swift; sourceTree = "<group>"; };
 		42DB91EE1F5076EA00E48CC7 /* Mobster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DB91F11F5076EA00E48CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42DB91F31F5076EA00E48CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				4239FCD61F50B7BA00053FA2 /* Home2InterfaceController.swift */,
+				4239FCD91F50CC8300053FA2 /* StartInterfaceController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -379,6 +383,7 @@
 			files = (
 				42DB91F41F5076EA00E48CC7 /* ViewController.swift in Sources */,
 				42DB91F21F5076EA00E48CC7 /* AppDelegate.swift in Sources */,
+				4239FCDA1F50CC8300053FA2 /* StartInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +401,7 @@
 			files = (
 				4239FCD81F50B7BA00053FA2 /* Home2InterfaceController.swift in Sources */,
 				42DB92261F5076EB00E48CC7 /* NotificationController.swift in Sources */,
+				4239FCDB1F50CC8300053FA2 /* StartInterfaceController.swift in Sources */,
 				42DB92281F5076EB00E48CC7 /* ComplicationController.swift in Sources */,
 				42DB92241F5076EB00E48CC7 /* ExtensionDelegate.swift in Sources */,
 				42DB92221F5076EB00E48CC7 /* InterfaceController.swift in Sources */,
